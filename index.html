@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poetry Archive</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:"Cormorant Garamond", serif;
+    background:#f7f7f7;
+    color:#111;
+}
+
+/* HEADER */
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:#fff;
+    border-bottom:1px solid #e5e5e5;
+}
+
+header h1{
+    font-weight:400;
+    font-size:42px;
+}
+
+/* GRID ARCHIVE */
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.archive{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:60px;
+}
+
+/* POEM CARD */
+
+.poem{
+    background:#fff;
+    padding:30px;
+    border-radius:6px;
+    box-shadow:0 6px 25px rgba(0,0,0,0.05);
+    transition:0.4s ease;
+}
+
+.poem:hover{
+    transform:translateY(-6px);
+}
+
+/* COVER */
+
+.book-cover{
+    width:100%;
+    height:360px;
+    object-fit:cover;
+    border-radius:4px;
+    margin-bottom:25px;
+    transition:0.5s ease;
+}
+
+.poem:hover .book-cover{
+    transform:scale(1.03);
+    filter:brightness(0.9);
+}
+
+/* TEXT */
+
+.poem-title{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.meta{
+    font-size:13px;
+    color:#777;
+    margin-bottom:25px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.lang-title{
+    font-size:12px;
+    letter-spacing:1px;
+    color:#999;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.text{
+    white-space:pre-line;
+    font-size:17px;
+    line-height:1.8;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Poetry Archive</h1>
+<div>Burak Cem Coşkun</div>
+</header>
+
+<div class="container">
+
+<div class="archive">
+
+<!-- ================= POEM ================= -->
+
+<div class="poem"
+data-image="bilim-ve-siir-3.jpg"
+data-link="https://amazon.com/kitap-linki">
+
+<img class="book-cover">
+
+<div class="poem-title">
+Mavi Anadolu Gecelerinde Elektrik Kuadrupol Düşler
+</div>
+
+<div class="meta">
+First Published: 2024<br>
+Volume: Bilim ve Şiir III
+</div>
+
+<div class="grid">
+
+<div>
+<div class="lang-title">Türkçe</div>
+<div class="text">
+Mavi Anadolu gecelerinde  
+Manyetik tek kutuplu düşler seni  
+Sessiz kıyıya savrulan yosunlar  
+Nazik kararsızlığını dinler
+</div>
+</div>
+
+<div>
+<div class="lang-title">English</div>
+<div class="text">
+In Blue Anatolian nights  
+Magnetic monopole dreams of you  
+Seaweeds cast upon silent shores  
+Listen to your gentle hesitation
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ================= POEM END ================= -->
+<!-- ================= POEM ================= -->
+
+<div class="poem"
+data-image="bilim-ve-siir-3.jpg"
+data-link="https://amazon.com/kitap-linki">
+
+<img class="book-cover">
+
+<div class="poem-title">
+Mavi Anadolu Gecelerinde Elektrik Kuadrupol Düşler
+</div>
+
+<div class="meta">
+First Published: 2024<br>
+Volume: Bilim ve Şiir III
+</div>
+
+<div class="grid">
+
+<div>
+<div class="lang-title">Türkçe</div>
+<div class="text">
+Mavi Anadolu gecelerinde  
+Manyetik tek kutuplu düşler seni  
+Sessiz kıyıya savrulan yosunlar  
+Nazik kararsızlığını dinler
+</div>
+</div>
+
+<div>
+<div class="lang-title">English</div>
+<div class="text">
+In Blue Anatolian nights  
+Magnetic monopole dreams of you  
+Seaweeds cast upon silent shores  
+Listen to your gentle hesitation
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ================= POEM END ================= -->
+<!-- ================= POEM ================= -->
+
+<div class="poem"
+data-image="bilim-ve-siir-3.jpg"
+data-link="https://amazon.com/kitap-linki">
+
+<img class="book-cover">
+
+<div class="poem-title">
+Mavi Anadolu Gecelerinde Elektrik Kuadrupol Düşler
+</div>
+
+<div class="meta">
+First Published: 2024<br>
+Volume: Bilim ve Şiir III
+</div>
+
+<div class="grid">
+
+<div>
+<div class="lang-title">Türkçe</div>
+<div class="text">
+Mavi Anadolu gecelerinde  
+Manyetik tek kutuplu düşler seni  
+Sessiz kıyıya savrulan yosunlar  
+Nazik kararsızlığını dinler
+</div>
+</div>
+
+<div>
+<div class="lang-title">English</div>
+<div class="text">
+In Blue Anatolian nights  
+Magnetic monopole dreams of you  
+Seaweeds cast upon silent shores  
+Listen to your gentle hesitation
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ================= POEM END ================= -->
+<!-- ================= POEM ================= -->
+
+<div class="poem"
+data-image="bilim-ve-siir-3.jpg"
+data-link="https://amazon.com/kitap-linki">
+
+<img class="book-cover">
+
+<div class="poem-title">
+Mavi Anadolu Gecelerinde Elektrik Kuadrupol Düşler
+</div>
+
+<div class="meta">
+First Published: 2024<br>
+Volume: Bilim ve Şiir III
+</div>
+
+<div class="grid">
+
+<div>
+<div class="lang-title">Türkçe</div>
+<div class="text">
+Mavi Anadolu gecelerinde  
+Manyetik tek kutuplu düşler seni  
+Sessiz kıyıya savrulan yosunlar  
+Nazik kararsızlığını dinler
+</div>
+</div>
+
+<div>
+<div class="lang-title">English</div>
+<div class="text">
+In Blue Anatolian nights  
+Magnetic monopole dreams of you  
+Seaweeds cast upon silent shores  
+Listen to your gentle hesitation
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ================= POEM END ================= -->
+
+</div>
+</div>
+
+<script>
+document.querySelectorAll(".poem").forEach(poem=>{
+    const imgName = poem.dataset.image;
+    const link = poem.dataset.link;
+
+    poem.querySelector(".book-cover").src="images/"+imgName;
+
+    poem.onclick=()=>{
+        window.open(link,"_blank");
+    }
+});
+</script>
+
+</body>
+</html>
