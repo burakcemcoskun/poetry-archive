@@ -8,11 +8,10 @@
 <style>
     
 site-banner{
-    width:100%;
-    max-height:320px;
-    object-fit:cover;
-    margin-bottom:40px;
-    border-bottom:1px solid #e5e5e5;
+    width:600px;
+    height:auto;
+    display:block;
+    margin:0 auto 50px auto;
 }
     
 body{
@@ -39,15 +38,15 @@ header h1{
 /* GRID ARCHIVE */
 
 .container{
-    max-width:1200px;
+    max-width:1400px;
     margin:auto;
-    padding:60px 20px;
+    padding:60px 40px;
 }
 
 .archive{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:60px;
+    grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
+    gap:70px;
 }
 
 /* POEM CARD */
@@ -109,8 +108,9 @@ header h1{
 
 .text{
     white-space:pre-line;
-    font-size:17px;
-    line-height:1.8;
+    font-size:18px;
+    line-height:1.9;
+    max-width:650px;
 }
 
 /* MOBILE */
@@ -331,3 +331,4 @@ document.querySelectorAll(".poem").forEach(poem=>{
 </body>
 
 </html>
+
